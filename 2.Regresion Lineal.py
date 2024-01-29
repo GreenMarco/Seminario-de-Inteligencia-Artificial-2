@@ -52,3 +52,5 @@ print(model.score(x,y))
 
 
 
+
+# %%
