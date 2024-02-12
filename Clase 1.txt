@@ -1,0 +1,23 @@
+SSPIA2	
+ACTIVIDADES	60%
+EXAMENES	40%
+
+NumPy
+Mathplotlib
+Pandas
+Scikit - learn
+Scipy
+Jeanborn
+Tensorflow - keras (colab)
+
+Anaconda
+
+.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+Aprendisaje: 
+		Supervisado->    Categoria clasificacion, Continuo: Regresión
+		No Supervisado-> Categoria: Agrupacion, Continuo: Red de Dimencion
+		Reforzado->	 Q-learning,DQN, AZC, 
+
+
+SIGUIENTE CLASE: PANDAS	

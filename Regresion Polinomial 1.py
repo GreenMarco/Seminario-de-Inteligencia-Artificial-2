@@ -1,3 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 24 07:11:58 2024
+
+@author: Marco Barrones
+SIA2 - Carlos Villaseñor
+.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Regresion lineal 
+
+-Error absoluto medio MAE
+-Error cuadratico medio MSE
+-MedianAE
+Coeficiente de determinacion R^2-Score
+Coeficiente de varianza explicada EVC
+-interpolacion
+-extrapolacion
+"""
 #%%
 #Importaciones
 import numpy as np
