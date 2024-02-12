@@ -29,21 +29,21 @@ from sklearn.model_selection import train_test_split
 #Variables - - - - - - - - - - - - - - - -
 np.random.seed(42)
 m=100
-x = 6 *np.random.rand(m,1) - 3
-y = 0.5 * x**2 + x + 2 + 1 * np.random.rand(m,1)
+x = 7 *np.random.rand(m,1) - 3
+y = 0.7 * x**2 + x + 3 + 1 * np.random.rand(m,1)
 
 
 #%%
 #Entrenamiento - - - - - - - - - - - - - -
 xtrain,xtest,ytrain,ytest = train_test_split(x,y, test_size=0.3)
 
-degree=20
+degree=2
 model = Pipeline([('poly', PolynomialFeatures(degree=degree,
                                               include_bias=False)),
                   ('scaler',StandardScaler()),
                   ('lin_reg', LinearRegression())])
 model.fit(xtrain,ytrain)
-
+print('Degree: ', degree)
 print('Train: ', model.score(xtrain,ytrain))
 print('Test: ', model.score(xtest,ytest))
 
