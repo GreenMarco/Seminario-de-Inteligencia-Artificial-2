@@ -32,11 +32,11 @@ x = np.asanyarray(data[['Temp']])
 
 data2 =  pd.DataFrame(data.Temp)
 
-p = 5
-for i in range(1, p+1):
+j = 5
+for i in range(1, j+1):
     data2 = pd.concat([data2, data.Temp.shift(-i)],axis=1)
 
-data2 = data2[:-p]
+data2 = data2[:-j]
 
 x = np.asanyarray(data2.iloc[:,:-1])
 y = np.asanyarray(data2.iloc[:,-1])
@@ -51,21 +51,21 @@ print('Test: ', model.score(xtest,ytest))
 #%%
 #Dibujo - - - - - - - - - - - - - - - - - -
 
-#plt.plot(x)
+plt.plot(x)
+plt.show()
 
-
-#plt.show()
-
-#%%
 #Informativos
+#%%
 ##Autocorrelacion con el p dia pasado
-"""
-p = 1
+
+p = 2
 plt.scatter(x[p:],x[:-p])
 print(np.corrcoef(x[p:].T,x[:-p].T))
 """
 """ 
+#%%
 #Funcion de Autocorrelacion
-#autocorrelation_plot(x)
-"""
-#plt.show()
+autocorrelation_plot(x)
+
+plt.show()
+

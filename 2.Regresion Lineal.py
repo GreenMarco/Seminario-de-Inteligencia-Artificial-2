@@ -46,11 +46,4 @@ print('EVS: ', explained_variance_score(y, ypred), '% de prediccion')
 
 print(model.score(x,y))
 
-
-
-
-
-
-
-
 # %%
