@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 12 07:11:58 2024
+
+@author: Marco Barrones
+SIA2 - Carlos Villaseñor
+.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+{Titulo}
+
+"""
 #%%
 #Importaciones
 import numpy as np
