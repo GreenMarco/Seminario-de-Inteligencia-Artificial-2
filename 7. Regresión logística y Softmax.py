@@ -96,5 +96,3 @@ softmax_reg = LogisticRegression(multi_class= "multinomial",
 softmax_reg.fit(xtrain, ytrain)
 print("train: ", softmax_reg.score(xtrain,ytrain))
 print("test: ", softmax_reg.score(xtest, ytest))
-
-# %%
