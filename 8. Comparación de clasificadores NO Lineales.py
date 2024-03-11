@@ -94,3 +94,5 @@ plt.suptitle('Classification test: '+ model_name)
 plt.tight_layout()
 plt.show()
 
+
+# %%
