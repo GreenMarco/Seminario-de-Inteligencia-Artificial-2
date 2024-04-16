@@ -14,7 +14,11 @@ from sklearn.metrics import confusion_matrix, classification_report
 
 #%%
 #Lectura de Datos
+
 data = pd.read_csv('DataSets/mnist_784.csv')
+
+data = pd.read_csv('csv/mnist_784.csv')
+
 
 n_samples = 10000
 
